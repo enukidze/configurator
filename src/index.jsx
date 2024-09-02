@@ -5,7 +5,7 @@ import { Canvas } from '@react-three/fiber'
 import { useGLTF,OrbitControls,ContactShadows,Environment } from '@react-three/drei'
 import { proxy, useSnapshot } from 'valtio'
 import { HexColorPicker } from "react-colorful";
-import { THREE } from 'aframe'
+
 
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
